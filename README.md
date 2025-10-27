@@ -1,7 +1,7 @@
 # MaximizeVertically
 max_vert.txt is an AppleScript that should be added to Automator
 
-##Instructions for installation:
+## Instructions for installation:
 1. Open *Authomator*. You can do this with Spotlight search by hitting CMD-Space and type 'Automator'
 2. Click *New Document*
 3. Select *Quick Action*
@@ -14,13 +14,13 @@ max_vert.txt is an AppleScript that should be added to Automator
 10. That should give you a pop-up saying whatever app you are in wants access to control "System Events.app". Go ahead and allow it
 11. You'll get 2 more pop-ups, The first one is asking you to open system settings and grant access but the 2nd pop-up is covering that. You'll need to dismiss the 2nd pop-up so you can respond to the first. In my case, I was doing this from Alacritty so I had to give Apacritty Accessibility access.
 12. Create a hot-key
-   1. Go to System Settings -> Keyboard -> Keyboard Shortcuts...
-   2. Within that, choose *Services*
-   3. Expand *General*. You should see *MaximizeVertically*.
-   4. Assign a hotkey to that. I chose Shift-CMD-0
+13. Go to System Settings -> Keyboard -> Keyboard Shortcuts...
+14. Within that, choose *Services*
+15. Expand *General*. You should see *MaximizeVertically*.
+16. Assign a hotkey to that. I chose Shift-CMD-0
 
 
-`
+```
 on run {input, parameters}
 	
 	-- Get the frontmost application
@@ -47,4 +47,4 @@ on run {input, parameters}
 	
 	return input
 end run
-`
+```
