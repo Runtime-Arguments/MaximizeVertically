@@ -1,7 +1,6 @@
 # MaximizeVertically
-max_vert.txt is an AppleScript that should be added to Automator
 
-## Instructions for installation:
+## Instructions to setup
 1. Open *Authomator*. You can do this with Spotlight search by hitting CMD-Space and type 'Automator'
 2. Click *New Document*
 3. Select *Quick Action*
