@@ -1,7 +1,7 @@
 # MaximizeVertically
 
-## Instructions to setup
-1. Open *Authomator*. You can do this with Spotlight search by hitting CMD-Space and type 'Automator'
+## Instructions
+1. Open *Automator*. You can do this with Spotlight search by hitting CMD-Space and type 'Automator'
 2. Click *New Document*
 3. Select *Quick Action*
 4. In the second column on the left-side, Double-Click *Run AppleScript*
